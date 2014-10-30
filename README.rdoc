@@ -1,0 +1,5 @@
+== Manish crop task
+
+To install:
+       git clone https://github.com/manish-shrivastava/imagecrop.git
+       rake db:migrate

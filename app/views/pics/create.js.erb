@@ -1,0 +1,8 @@
+$('#modal').modal('hide');
+$('.modal-body').html('<img id="preview" />');
+
+$('.images').html("<%=j render 'images' %>");
+
+if (typeof jcrop_api != 'undefined') {
+		jcrop_api.destroy();
+}

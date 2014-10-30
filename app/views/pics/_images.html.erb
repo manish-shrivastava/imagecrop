@@ -1,0 +1,5 @@
+<% Pic.all.each do |pic| %>
+   <div class="span2 pagination-centered"><%= image_tag pic.image.url(:thumb) %>
+   <div class="text-center"><%= link_to 'remove', pic, method: :delete, remote: true  %></div>
+   </div>
+<% end %>
